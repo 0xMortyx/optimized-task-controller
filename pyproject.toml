@@ -1,0 +1,8 @@
+[project]
+name = "optimized-task-controller"
+version = "0.1.0"
+description = "A decision layer for routing, batching, caching, escalating, or dropping AI tasks."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
